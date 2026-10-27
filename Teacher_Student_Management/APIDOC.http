@@ -1,0 +1,44 @@
+###
+GET http://127.0.0.1:8000/teachers/
+Accept: application/json
+
+
+###
+POST http://127.0.0.1:8000/teachers/
+Content-Type: application/json
+
+{
+    "name":"Liji",
+    "experience":5,
+    "subject":"C/C++",
+    "college":"ABC College"
+}
+
+
+###
+GET http://127.0.0.1:8000/teacher/1/
+Accept: application/json
+
+
+###
+PUT http://127.0.0.1:8000/teacher/2/
+Content-Type: application/json
+
+{
+    "name":"Kaushik",
+    "experience":7,
+    "subject":"Computer Graphics",
+    "college":"CAB College"
+}
+
+
+###
+DELETE http://127.0.0.1:8000/teacher/3/
+Accept: application/json
+
+
+###
+GET http://127.0.0.1:8000/students/
+Accept: application/json
+
+
